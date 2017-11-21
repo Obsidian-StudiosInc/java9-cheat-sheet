@@ -74,3 +74,7 @@ To expose various parts. Expose as needed, likely do not need all just examples.
 
 ## Notes
 When things are not visible, you use the --add-exports to expose.
+
+### Using --add-modules with --add-exports
+Seems it is not necessary and redundant to add both. There is no harm. 
+Seems --add-exports will add the module of the classes being exposed.
