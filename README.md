@@ -3,6 +3,13 @@
 Just a cheat sheet of fixes for Java 9 issues.
 Contributions welcomed!
 
+## --release
+None of the following works with the --release option. Not till > Java 9.
+Using --release 6,7,8, classes requiring exposure are not found at all. 
+Forcing use of Java 9 and dropping --release to expose; com.sun.*, sun.*, etc.
+Though with --release 6,7,8 things like javax.activation are auto loaded.
+Pros and cons, when there is a choice.
+
 ## javax.activation
 ```
 --add-modules java.activation
