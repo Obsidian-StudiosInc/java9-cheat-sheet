@@ -15,6 +15,11 @@ Pros and cons, when there is a choice.
 --add-modules java.activation
 ```
 
+## javax.annotation.Generated
+```
+--add-modules java.xml.ws.annotation
+```
+
 ## javax.jnlp
 ```
 --add-modules java.jnlp
