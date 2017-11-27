@@ -40,6 +40,11 @@ Pros and cons, when there is a choice.
 --add-exports=java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED
 ```
 
+## sun.font
+```
+--add-exports java.desktop/sun.font=ALL-UNNAMED
+```
+
 ## sun.misc.Unsafe
 ```
 --add-exports jdk.unsupported/sun.misc=ALL-UNNAMED
