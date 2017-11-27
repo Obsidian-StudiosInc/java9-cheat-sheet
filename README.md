@@ -84,6 +84,14 @@ To expose various parts. Expose as needed, likely do not need all just examples.
 --add-modules jdk.javadoc
 ```
 
+## Cannot find resource
+In some cases resources in the same folders as classes cannot be found 
+during compile by some annotation processors. In those cases this can be 
+a resolution.
+```
+--source-path src/main/java
+```
+
 ## Notes
 When things are not visible, you use the --add-exports to expose.
 
