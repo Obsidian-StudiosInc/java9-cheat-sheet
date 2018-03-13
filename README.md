@@ -18,6 +18,8 @@ Which really does not make sense till Java 10+.
 ```
 --add-modules java.activation
 ```
+This will be removed from JDK11+. Need to use 
+[JAF/javax-activation](https://github.com/javaee/activation)
 
 ## javax.annotation.Generated
 ```
