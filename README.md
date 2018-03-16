@@ -40,6 +40,8 @@ This will be removed from JDK11+. Need to use
 ```
 --add-modules java.xml.bind
 ```
+This will be removed from JDK11+. Need to use 
+[JSR-222 jaxb-api](https://github.com/javaee/jaxb-spec)
 
 ## com.sun.org.apache.xpath.internal
 ```
