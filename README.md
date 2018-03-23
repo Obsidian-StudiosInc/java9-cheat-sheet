@@ -25,6 +25,8 @@ This will be removed from JDK11+. Need to use
 ```
 --add-modules java.xml.ws.annotation
 ```
+This will be removed from JDK11+. Need to use
+[javax.annotation-api](https://github.com/javaee/javax.annotation)
 
 ## javax.jnlp
 ```
